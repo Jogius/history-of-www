@@ -1,0 +1,28 @@
+    <!-- Info-Menu -->
+    <div class="menu_info menu_info_item">
+        <a href="mailto:%20julius@themakowskis.de">E-Mail</a>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+
+        /* 'Accordion' Textboxen */
+        var acc = document.getElementsByClassName("accordion-button");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Umschalten der 'active' Klasse (Farbe des button) */
+                this.classList.toggle("active");
+
+                /* Umschalten zwischen panel zeigen/nicht zeigen */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+    </script>

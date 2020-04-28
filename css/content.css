@@ -1,0 +1,71 @@
+.text {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.hptitle {
+    font-size: 8em;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.title {
+    font-size: 4em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.subtitle {
+    font-size: 3em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.subsubtitle {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.menu-bar-content a {
+    color: #666666;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.menu-bar-content a:hover {
+    background-color: #666666;
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+.panel-content {
+    color: #ffffff;
+}
+
+#submarine-cable-map {
+    float: left;
+    margin: 0px 20px 0px 0px;
+    height: 420px;
+    width: auto;
+    transition: transform .2s;
+}
+
+
+#submarine-cable-map:hover {
+    transform: scale(1.1);
+}
+
+#submarine-cable {
+    float: left;
+    margin: 5px 10px 0px 0px;
+    height: 200px;
+    width: auto;
+    transition: transform .2s;
+}
+
+
+#submarine-cable:hover {
+    transform: scale(1.45);
+}
